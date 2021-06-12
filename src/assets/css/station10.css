@@ -1,0 +1,45 @@
+.card {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card__title{
+    font-size: 14px;
+}
+
+.card__description{
+    font-size: 12px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: #282828;
+}
+
+img{
+    width: 288px;
+    height: 182px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 968px){
+    .card__title{
+        font-size: 10px;
+    }
+    .card__description{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .card__title{
+        font-size: 8px;
+    }
+    .card__description{
+       display: none;
+    }
+}
